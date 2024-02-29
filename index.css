@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Fortnite';
+    src: url('fortnite.otf') format('opentype'); /* Utiliza 'opentype' para el formato OTF */
+    /* Puedes incluir más formatos si lo deseas */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.box{
+    width: 100%;
+    height: 100%;
+}
+
+.gradiente {
+    background:  rgb(72, 0, 255) radial-gradient(circle , rgb(18, 129, 255) 20%, rgb(72, 0, 255)80%);    
+}
+
+#ImagenesContainer img{
+    margin-top: 10px;
+    width: 195px; /* Por ejemplo, establece el ancho en 100px */
+    height: auto; /* Esto mantiene la proporción de aspecto */
+    margin: 5px; /* Espacio entre imágenes */
+}
+
+form{
+    text-align:center;
+}
+
+header{
+    text-align:center;
+}
+
+.boton {
+    margin: 0 6px;
+    margin-bottom: 15px;
+    border-color: rgb(199, 199, 199);;
+    font-family: 'Fortnite', sans-serif;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.363);
+    font-weight: bolder;
+    font-size: 30px; 
+    color: white;
+    cursor: pointer;
+}
+
+.boton-L:hover {
+    background-color: rgb(233, 213, 31);
+    transform: scale(1.1)rotate(-1deg);
+}
+.boton-R:hover {
+    background-color: rgb(233, 213, 31);
+    transform: scale(1.1)rotate(1deg);
+}
+
+
+body {
+    max-width: 100%; /* Establece el ancho máximo del cuerpo */
+    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+    overflow-y: auto; /* Muestra la barra de desplazamiento vertical solo cuando sea necesario */
+    font-family: 'Fortnite', sans-serif;
+}

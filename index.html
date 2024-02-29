@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <title>Fortnite</title>
+    
+    <body class="box gradiente">
+        <header>
+            <img src="logo.png"  width="15%" height="15%">
+        </header>
+        
+        <form>
+            <button class="boton boton-L" type="button" onclick="getMyIpHttp()">get my IP (HttpRequest)</button>
+            <button class="boton boton-R" type="button" onclick="getMyIpfetch()">get my IP (fetch)</button>
+    
+            <button class="boton boton-L" type="button" onclick="getMyIp()">get my IP (jquery)</button>
+            <button class="boton boton-R" type="button" onclick="getMyData()">get random data(jquery)</button>
+            
+            <button class="boton boton-L" type="button" onclick="Limpiar()">🧹</button>
+        </form>
+
+
+        <div id="Nombre"></div>
+        <div id="ImagenesContainer">
+
+        </div>
+<!--
+    <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+-->
+<link rel="stylesheet" href="index.css">
+        <script src="jquery.js"></script>
+        <script src ="callapi.js"></script>
+    </body>
+</html>
